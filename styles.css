@@ -78,7 +78,7 @@ nav a:hover,
   padding: 120px 6vw 76px;
   isolation: isolate;
   background-image: url("https://avatars.githubusercontent.com/u/246084875?v=4");
-  background-position: center;
+  background-position: right center;
   background-size: cover;
 }
 
@@ -94,7 +94,7 @@ nav a:hover,
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(90deg, rgba(17, 24, 39, 0.92), rgba(15, 118, 110, 0.70), rgba(239, 68, 68, 0.42));
+  background: linear-gradient(90deg, rgba(17, 24, 39, 0.94) 0%, rgba(17, 24, 39, 0.80) 46%, rgba(17, 24, 39, 0.28) 100%);
 }
 
 .hero-content {
