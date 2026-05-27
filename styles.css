@@ -77,9 +77,6 @@ nav a:hover,
   align-items: end;
   padding: 120px 6vw 76px;
   isolation: isolate;
-  background-image: url("https://avatars.githubusercontent.com/u/246084875?v=4");
-  background-position: right center;
-  background-size: cover;
 }
 
 .hero::before {
@@ -90,14 +87,29 @@ nav a:hover,
   background: #111827;
 }
 
+
+.hero-portrait {
+  position: absolute;
+  right: 7vw;
+  bottom: 0;
+  z-index: 0;
+  width: min(430px, 36vw);
+  max-height: 76%;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
+}
 .hero-overlay {
   position: absolute;
   inset: 0;
-  z-index: -1;
-  background: linear-gradient(90deg, rgba(17, 24, 39, 0.94) 0%, rgba(17, 24, 39, 0.80) 46%, rgba(17, 24, 39, 0.28) 100%);
+  z-index: 0;
+  background: linear-gradient(90deg, rgba(17, 24, 39, 1) 0%, rgba(17, 24, 39, 0.88) 48%, rgba(17, 24, 39, 0.18) 100%);
+  pointer-events: none;
 }
 
 .hero-content {
+  position: relative;
+  z-index: 1;
   max-width: 780px;
   color: #fff;
 }
@@ -300,6 +312,17 @@ footer {
 }
 
 @media (max-width: 880px) {
+  .hero-portrait {
+    right: -22vw;
+    width: 92vw;
+    max-height: 68%;
+    opacity: 0.24;
+  }
+
+  .hero-overlay {
+    background: rgba(17, 24, 39, 0.76);
+  }
+
   .site-header {
     align-items: flex-start;
     flex-direction: column;
