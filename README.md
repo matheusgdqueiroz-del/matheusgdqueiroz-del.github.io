@@ -1,19 +1,19 @@
-# Matheus Queiroz Portfolio
+# Portfólio de Matheus Queiroz
 
-Personal portfolio published with GitHub Pages.
+Site pessoal publicado com GitHub Pages.
 
-## Live site
+## Site ao vivo
 
 https://matheusgdqueiroz-del.github.io/
 
-## What is inside
+## O que tem aqui
 
-- Responsive landing page.
-- Selected public repositories.
-- Links to live GitHub Pages demos.
-- Skills and current study focus.
+- Página responsiva de apresentação.
+- Projetos públicos selecionados.
+- Links para demos publicadas no GitHub Pages.
+- Tecnologias e foco atual de estudo.
 
-## Tech stack
+## Tecnologias
 
 - HTML5
 - CSS3
